@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The lengend</title>
+    <script src="js/app.js" defer></script>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <nav>
+        <h2>MOVIE</h2>
+    </nav>
+    <h1>The legend</h1>
+    <div id="search">
+        <form action="" id="search-title">
+            <input type="text"  placeholder="Search Title..." />
+        </form>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="form-box">
+                <form action="">
+                    <div class="text">
+                        TICKET:<input type="number" id="numberId" placeholder="1 ticket=5$" />
+                    </div>
+                    <div>
+                        Choose The Time: <select name="time" id="timeId">
+                            <option value="Time">1:00pm-2:00pm</option>
+                            <option value="Time">2:00pm-3:00pm</option>
+                            <option value="Time">3:00pm-4:00pm</option>
+                        </select>
+                    </div>
+                    <div class="date">
+                        DATE:<input type="date" id="dateId" placeholder="dd/mm/yy"/>
+                    </div>
+                    <button id="add">Add</button>
+                    <button id="update">Update</button>
+                </form>
+            </div>
+            <div>
+                <button id="close">Close</button>
+                <button id="register">Register</button>
+
+            </div>
+           
+            <br></br>
+            <div id="myDIV" class="header">
+                <h2 style="margin:5px">The Title</h2>
+                <input type="text" id="myInput" placeholder="Title...">
+                <span onclick="newElement()" class="addBtn">+Add</span>
+            </div>
+            <div id="title">
+                <div class="v2"> </div>
+                <ul>
+                  <li>
+                    <span class="name">Ghost at home</span><span class="delete">delete</span>
+                  </li>
+                  <li>
+                    <span class="name">Garden ghost</span
+                    ><span class="delete">delete</span>
+                  </li>
+                  <li>
+                    <span class="name">broken heart</span
+                    ><span class="delete">delete</span>
+                  </li>
+                  <li>
+                    <span class="name">Love story</span
+                    ><span class="delete">delete</span>
+                  </li>
+                  <li>
+                    <span class="name">My darling</span
+                    ><span class="delete">delete</span>
+                  </li>
+                  <li>
+                    <span class="name">Hunii on the sky</span
+                    ><span class="delete">delete</span>
+                  </li>
+                </ul>
+            </div> 
+        </div>
+    </div>
+    <div class="container">
+        <div class="vl"></div>
+        <div class="row">
+            <div class="output"></div>
+        </div>
+    </div>
+</body>
+</html>
